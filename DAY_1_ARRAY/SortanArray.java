@@ -1,3 +1,4 @@
+package DAY_1_ARRAY;
 
 class SortColors{
 //     Complexity

@@ -1,3 +1,4 @@
+package DAY_1_ARRAY;
 
 import java.util.Arrays;
 //optimal solution
@@ -56,5 +57,9 @@ class Solution {
             }
             System.out.println();
         }
+    }
+    public int maxProfit(int[] prices) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'maxProfit'");
     }
 }
