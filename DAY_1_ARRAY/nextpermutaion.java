@@ -5,8 +5,9 @@ class NextPermutation {
         // Test case 1
         int[] nums1 = {1,5,8,4,7,6,5,3,1};
         nextPermutation(nums1);
-        System.out.println(Arrays.toString(nums1)); // Expected output: [1, 3, 2]
+        System.out.println(Arrays.toString(nums1)); // [1, 5, 8, 5, 1, 3, 4, 6, 7]
 
+        
         // Test case 2
         int[] nums2 = {3, 2, 1};
         nextPermutation(nums2);
@@ -33,8 +34,6 @@ class NextPermutation {
      reverse(nums,i+1);
           
       }
-    
-
     public static void swap(int nums[], int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
